@@ -1,0 +1,62 @@
+@subtask samples
+manual sample1.in
+
+@subtask small
+@include samples
+gen 1 1
+gen 1 2
+gen 1 3
+gen 1 4
+gen 1 5
+gen 1 6
+gen 1 7
+gen 1 8
+gen 1 9
+gen 1 10
+gen 1 11
+gen 1 12
+
+@subtask elf
+gen 2 1
+gen 2 2
+gen 2 3
+gen 2 4
+gen 2 5
+gen 2 6
+gen 2 7
+gen 2 8
+gen 2 9
+gen 2 10
+gen 2 11
+gen 2 12
+
+@subtask tou
+gen 3 1
+gen 3 2
+gen 3 3
+gen 3 4
+gen 3 5
+gen 3 6
+gen 3 7
+gen 3 8
+gen 3 9
+gen 3 10
+gen 3 11
+gen 3 12
+
+@subtask all
+@include small
+@include elf
+@include tou
+gen 4 1
+gen 4 2
+gen 4 3
+gen 4 4
+gen 4 5
+gen 4 6
+gen 4 7
+gen 4 8
+gen 4 9
+gen 4 10
+gen 4 11
+gen 4 12

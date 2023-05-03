@@ -1,0 +1,26 @@
+{
+	"global_validators": ["val.cpp"],
+	"subtasks": {
+    "samples": {
+      "index": 0,
+      "score": 0
+    },
+    "small": {
+      "index": 1,
+      "score": 10
+    },
+	"elf":{
+      "index": 2,
+	  "score": 15
+	},
+	"tou":{
+      "index": 3,
+	  "score": 15
+	},
+	"all": {
+      "index": 2,
+      "score": 60
+    }
+  }
+}
+
