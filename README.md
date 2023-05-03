@@ -1,6 +1,6 @@
 # Tutorial
 
-Keywords: ```linked list``` ```reverse linked list```
+Keywords: `linked list` `reverse linked list`
 
 ## Training Period
 
@@ -46,8 +46,8 @@ One can find the border of the square from the center bakery in $O(l)$ time comp
 ## Coding Tips
 
 1. use ```struct``` to maintain the information of each bakery
-2. use array (like ```d[4]```) to store the bakeries to the four directions instead of ```r, u, l, d```
-3. commonly used operations can be written in function (```del()```, ```ins()```, ```max()```, ```swap()```)
+2. use array (like ```d[4]```) to store the bakeries to the four directions instead of `r, u, l, d`
+3. commonly used operations can be written in function (`del()`, `ins()`, `max()`, `swap()`)
 
 ## Testdata
 
@@ -60,7 +60,7 @@ tps gen
 
 [Source Code](./solution/sol.cpp)
 
-```cpp=
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
