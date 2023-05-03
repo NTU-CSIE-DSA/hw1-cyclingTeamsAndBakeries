@@ -27,17 +27,20 @@ One can insert all closed bakeries before the racing period, and delete them aft
 
 Maintain the reverse map:
 
-Original: $\begin{array}{|c|c|c|c|}\hline
-1&2&3&4\\\hline
-5&6&7&8\\\hline
-9&10&11&12\\\hline
-13&14&15&16\\\hline
-\end{array}$ Reverse: $\begin{array}{|c|c|c|c|}\hline
-16&15&14&13\\\hline
-12&11&10&9\\\hline
-8&7&6&5\\\hline
-4&3&2&1\\\hline
-\end{array}$
+Original: 
+| 01  | 02  | 03  | 04  |
+| --- | --- | --- | --- |
+| 05  | 06  | 07  | 08  |
+| 09  | 10  | 11  | 12  |
+| 13  | 14  | 15  | 16  |
+
+Reverse: 
+| 16  | 15  | 14  | 13  |
+| --- | --- | --- | --- |
+| 12  | 11  | 10  | 09  |
+| 08  | 07  | 06  | 05  |
+| 04  | 03  | 02  | 01  |
+
 
 Reversing a square is equivalent to swap the squares in the two maps.
 
